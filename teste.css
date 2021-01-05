@@ -1,0 +1,49 @@
+
+            *{margin: 0; padding: 0;text-decoration: none; list-style: none;}
+            body{background:#20242E ; margin: auto;text-align: center;}
+            #banner{width: 100%; height: 400px;background: url(imagens/imagem1.jpg) no-repeat center ; background-size: cover; background-position: center; }
+            #nav{width: 100%; height: 52px; background: #4b5063; }
+            #nav ul{width: 800px; height: 52px; margin: auto; }
+            #nav ul li{ display: inline-block;}
+            #nav ul li a{ font:normal 16px verdana; padding: 0 10px ; color: #FFF;line-height: 52px; display: inline-block; }
+            #nav ul li a:hover{ background: #333;}
+            .linha-vert{border-left: 1px solid white; line-height: 52px; margin: 0 5px;}
+            
+            /*lego e trailers CSS- inicio*/
+            #container{ clear: both; width: 1000px; height: auto; background: #FFF; margin: auto; padding-top: 1px;}
+            .bg-titulo{ width: 340; background: url(imagens/barra-titulos.jpg) no-repeat ; margin-top: 15px ;}
+            .titulo{ font:bold 16px verdana; text-align: left; margin: 3px 0; }
+            #destaque{margin: 15px auto; width: 808px; height: 295px;}
+            .ajusta-destaque{ float: left; margin: 0 5px;}
+            #trailers{width: 1000px; height: 165px; margin: auto;}
+            #container-trailer{width: 744px; height: 137px; margin: 15px auto;}
+            .ajuste-trailer{width: 244px; float: left;margin: 0 2px; }
+            .texto-trailer{ width: 244px; height: 20px; background: #354343; color: #FFF; font: normal 12px arial; line-height: 20px; }
+            /*lego e trailers CSS- final */
+             
+            /* produtos em destaque CSS--inicio */
+
+            #lojadc{ width: 1000px; height: 420px; margin: auto;}
+            #container-loja{width: 672px; height: auto;margin: auto; }
+            .ajuste-produto{ width: 220px; margin: 15px 2px; float: left;}
+            .texto-prod{font: normal 12px arial; margin: 0; }
+            .destaque-preco{ font: bold 14px arial;color:red;}
+
+            /* rodapé-inicio */
+
+            footer{width: 100%; height: 300px; padding-top:1px ; background: url( imagens/bg-footer.jpg) no-repeat center ; background-size:cover ;background-position: center; }
+            #container-footer{ width: 1000px;height: 200px; margin: 15px auto;}
+            .nav-footer{width: 150px; float: left; margin: 0 10px; }
+            .titulo-footer{width: 150px; font: bold 14px arial; color: #065fbe; text-align: left; margin: 10px 0; }
+            .nav-footer ul li{ width: 150px; height: 20px; text-align: left;}
+            .nav-footer ul li a{font: normal 12px arial; color: white; }
+
+            /* final rodapé */
+
+            /* redes sociais css --inicio */
+
+            #redes-socias{ width: 100%; height: 70px; background: #20242E;}
+            .icones-rs{ width: 1000px; height: 70px; background: auto; margin: auto;}
+            .ajusta-img{margin: 15px 10px; }
+
+            /* redes sociais css --final */
